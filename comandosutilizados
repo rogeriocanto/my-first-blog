@@ -1,0 +1,16 @@
+#API token Pythonantware
+55f9d45e323ad11f4061c518c0878bc2e2ad1171
+
+#comandos pythonaywhere
+pip3.6 install --user pythonanywhere
+pa_autoconfigure_django.py https://github.com/rogeriocanto/my-first-blog.git
+
+#acessar o ambiente virtual
+source myvenv/bin/activate
+
+
+#iniciar servidor web
+python manage.py runserver
+
+#prompt do django
+python manage.py shell
